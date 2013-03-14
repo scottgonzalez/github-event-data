@@ -32,6 +32,21 @@ GitHub supports the following events:
 * [Event Types](http://developer.github.com/v3/activity/events/types/)
 * [Post-Receive Hooks](https://help.github.com/articles/post-receive-hooks)
 
+## Configuring GitHub WebHooks
+
+In order to configure a WebHook for anything other than `push`, you need to use
+the GitHub API. This is annoying, so I built
+[hookup](https://github.com/scottgonzalez/hookup) to make it easy to configure
+WebHooks. Git it a try!
+
+```sh
+# install
+npm install -g hookup
+
+# show usage info
+hookup
+```
+
 ## License
 
 All documentation and sample data is free for use, without restriction.
